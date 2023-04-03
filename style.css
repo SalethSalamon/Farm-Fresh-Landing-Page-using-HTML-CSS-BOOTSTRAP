@@ -1,0 +1,517 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tele {
+    font-size: 1.8rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 650;
+    line-height: 1.2;
+    color: #263A4F;
+    padding: 0;
+}
+
+
+.vib-logo {
+    color: #34AD54;
+}
+
+.btn-clr {
+    background-color: #34AD54;
+}
+
+.brand-logo h1 {
+    color: #f93;
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.brand-logo h1 span {
+    color: #34AD54;
+}
+
+.logo-clr {
+    color: white;
+}
+
+.header-logo a {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo a:hover {
+    background-color: #34AD54;
+}
+
+.header-logo a:hover i {
+    color: black;
+}
+
+.nav-clr {
+    background-color: #34AD54;
+}
+
+.brand-logo-2 h1 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.brand-logo-2 {
+    color: white;
+}
+
+.brand-logo-2 span {
+    color: #f93;
+}
+
+.brand-logo-2:hover {
+    color: white;
+}
+
+.nav-link {
+    padding: 30px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.nav-item:hover {
+    background-color: #f93;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.display-1 {
+    font-size: calc(1.625rem + 4.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.carousel-caption h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.coro-btn-1 {
+    border-radius: 0;
+    background-color: #34AD54;
+    color: white;
+}
+
+.coro-btn-2 {
+    border-radius: 0;
+    background-color: #f93;
+    color: white;
+}
+
+.coro-btn-1:hover {
+    background-color: #34AD54;
+    color: black;
+}
+
+.coro-btn-2:hover {
+    background-color: #f93;
+    color: black;
+}
+
+.bg-veg {
+
+    background: url(./img/vegetable.png) bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #34AD54;
+
+}
+
+.bg-fruit {
+    background: url(./img/fruit.png) bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f93;
+}
+
+.about {
+    border: solid #34AD54;
+}
+
+.abouticon {
+    background-image: linear-gradient(#34AD54, #f93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+}
+
+.bg-clr-ex {
+    background-color: #34AD54;
+}
+
+.display-5 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h5 {
+
+    font-size: 1.25rem;
+}
+
+.ratingicon {
+    width: 60px;
+    height: 60px;
+    background-color: #f93;
+}
+
+.servicetext h6 {
+    color: #34AD54;
+}
+
+.servicetext a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+.servicebtn {
+    border-radius: 0;
+    background-color: #34AD54;
+    transition: .5s;
+    font-size: 14px;
+
+}
+
+.servicebtn:hover {
+    background-color: #34AD54;
+}
+
+.display-5 {
+    font-size: 40px;
+}
+
+.servicecard {
+    box-shadow: 0 0 45px #ededed;
+    transition: .5s;
+    background-color: #f8f9fa;
+
+}
+
+
+.servicecard:hover {
+    background-color: #34AD54;
+    transition: 0.4s;
+}
+
+.serviceicon {
+    font-size: 70px;
+    background-image: linear-gradient(#34AD54, #f93);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+}
+
+.servicecard:hover .serviceicon {
+    background-image: none;
+    background-color: #f93;
+}
+
+.feature {
+    background-color: #34AD54;
+}
+
+.featureh6 {
+    color: #f93;
+}
+
+.featureicon {
+    width: 60px;
+    height: 60px;
+    background-color: #f93;
+}
+
+.product {
+    max-width: 500px;
+}
+
+.product h6 {
+    color: #34AD54;
+}
+
+.product h1 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.cardback {
+    padding-top: 220px;
+    width: 100%;
+
+}
+
+.cardbackbg {
+    width: 100%;
+    height: 300px;
+    background-color: #34AD54;
+    overflow-x: hidden;
+}
+
+.cardbox {
+
+    width: 300px;
+
+}
+
+.rate {
+    color: #34AD54;
+
+}
+
+.iconbg1 {
+    background-color: #34AD54;
+    border-radius: 0;
+
+}
+
+.iconbg2 {
+    background-color: #f93;
+    border-radius: 0;
+}
+
+.btn-action {
+    position: absolute;
+    bottom: -48px;
+}
+
+.btn-action a {
+    display: none;
+}
+
+.box-item:hover .btn-action a {
+    display: block;
+    transition: 0.3s;
+}
+
+.box-item:hover .rate {
+    display: none;
+}
+
+.iconbg1:hover {
+    background-color: #34AD54;
+}
+
+.iconbg2:hover {
+    background-color: #f93
+}
+
+.cards {
+    top: 250px;
+}
+
+.client {
+    background: url(./img/testimonial.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.client-box {
+    height: 400px;
+    background: rgba(52, 173, 84, .7);
+}
+
+.client-icon {
+    width: 120px;
+    height: 120px;
+
+}
+
+.client-icon img {
+    border: 5px solid #f93;
+}
+
+.teamh6 {
+    color: #34AD54;
+}
+
+.farmername {
+    background: rgba(52, 173, 84, .7);
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+.farmericons {
+    background-color: #f93;
+    height: 100%;
+}
+
+.farmericon {
+    color: #f93;
+}
+
+.farmericons a {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.blogh6 {
+    color: #34AD54;
+}
+
+.blogover {
+
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+    z-index: 1;
+
+}
+
+.blogitem:hover img {
+    transform: scale(1.2);
+
+}
+
+.blogitem img {
+    transition: 0.5s;
+}
+
+.bg-footer {
+    background: linear-gradient(rgba(52, 173, 84, .7), rgba(52, 173, 84, .7)), url(./img/footer.png) bottom no-repeat;
+    background-size: contain;
+    background-color: #34AD54;
+}
+
+.btn-footer-logo {
+    background-color: #f93;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footericon {
+    font-size: 15px;
+    color: white;
+}
+
+.btn-footer-logo:hover {
+    background-color: #f93;
+}
+
+.btn-footer-logo:hover .footericon {
+    color: black;
+}
+
+.newsletter {
+    background-color: #f93;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.input-group .btn {
+    background-color: #34AD54;
+    border-radius: 0;
+    color: white;
+}
+
+.input-group .btn:hover {
+    color: black;
+}
+
+.news {
+    margin-top: -3rem;
+}
+
+.copyrightfooter {
+    background-color: #263A4F;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #f93;
+}
+
+.back-to-top {
+    background-color: #f93;
+    border-radius: 0;
+    display: inline;
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    z-index: 99;
+}
+
+.top-icon {
+    color: white;
+}
+
+.back-to-top:hover {
+    background-color: #f93;
+}
+
+.back-to-top:hover .top-icon {
+    color: black;
+}
+
+@media (min-width: 576px) {
+    .carousel-caption h1 {
+        font-size: calc(1.425rem + 4.3vw);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 768px) {
+    .cardbox {
+
+        width: 220px;
+
+    }
+
+    .cardbackbg {
+
+        height: 200px;
+
+    }
+
+}
+
+@media (min-width: 991.98px) {
+    .banner {
+        position: relative;
+        margin-top: -90px;
+        z-index: 1;
+    }
+
+}

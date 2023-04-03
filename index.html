@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh - Organic Farm Website Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="container-fluid px-5 d-none d-lg-block">
+        <div class="row justify-content-around align-items-center justify-content-start my-3">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 me-2 vib-logo"></i>
+                    <h3 class="tele mb-0">+012 345 6789</h3>
+                </div>
+            </div>
+            <div class="col-lg-6 justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <a href="" class="brand-logo text-decoration-none ">
+                        <h1 class="display-4">Farm<span>Fresh</span></h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex justify-content-end header-logo">
+                    <a href="" class="btn btn-clr btn-square rounded-circle me-2">
+                        <i class="fab fa-twitter logo-clr"></i>
+                    </a>
+                    <a href="" class="btn btn-clr btn-square rounded-circle me-2">
+                        <i class="fab fa-facebook-f logo-clr"></i>
+                    </a>
+                    <a href="" class="btn btn-clr btn-square rounded-circle me-2">
+                        <i class="fab fa-linkedin-in logo-clr"></i>
+                    </a>
+                    <a href="" class="btn btn-clr btn-square rounded-circle me-2">
+                        <i class="fab fa-instagram logo-clr"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg py-3 py-lg-0 px-3 px-lg-5 nav-clr">
+
+        <a href="" class="navbar-brand brand-logo-2 d-lg-none ">
+            <h1 class="display-4">Farm<span>Fresh</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="main-nav">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-2 py-lg-4">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-2 py-lg-4">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-2 py-lg-4">SERVICE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link py-2 py-lg-4">PRODUCTS</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link py-2 py-lg-4">PAGES</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link py-2 py-lg-4">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 ">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="./img/carousel-1.jpg" alt="">
+                    <div
+                        class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
+                        <div class="text-start p-5" style="max-width: 900px;">
+                            <h3 class="text-white mb-md-4">Organic Vegetables</h3>
+                            <h1 class="display-1 text-white">Organic Vegetables For Healthy Life</h1>
+                            <a href="" class="coro-btn-1 btn py-md-3 px-md-5 me-3">Explore</a>
+                            <a href="" class="coro-btn-2 btn py-md-3 px-md-5">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./img/carousel-2.jpg" class="w-100" alt="">
+                    <div class="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
+                        <div class="text-start p-5" style="max-width: 900px;">
+                            <h3 class="text-white">Organic Vegetables</h3>
+                            <h1 class="display-1 text-white">Organic Fruits For Better Health</h1>
+                            <a href="" class="coro-btn-1 btn py-md-3 px-md-5 me-3">Explore</a>
+                            <a href="" class="coro-btn-2 btn py-md-3 px-md-5">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid banner mb-5">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-md-6">
+                    <div class="bg-veg d-flex flex-column justify-content-center p-5" style="height: 300px;">
+                        <h3 class="text-white">Organic Vegetables</h3>
+                        <p class="text-white">Dolor magna ipsum elitr sea erat elitr amet ipsum stet justo dolor, amet
+                            lorem diam no duo sed dolore amet diam</p>
+                        <a href="" class="text-decoration-none text-white ">
+                            Read More
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-fruit d-flex flex-column justify-content-center p-5" style="height: 300px;">
+                        <h3 class="text-white">Organic Fruits</h3>
+                        <p class="text-white">Dolor magna ipsum elitr sea erat elitr amet ipsum stet justo dolor, amet
+                            lorem diam no duo sed dolore amet diam</p>
+                        <a href="" class="text-decoration-none text-white">
+                            Read More
+                            <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid pt-5">
+        <div class="row gx-4">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <div
+                    class="d-flex h-100 border border-5 border-success border-bottom-0 about pt-4 justify-content-center">
+                    <img src="./img/about.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+            <div class="col-lg-6 pb-5">
+                <div class="mb-3 pb-2">
+                    <h6 class="text-success">ABOUT US</h6>
+                    <h1 class="aboutus display-5">We Produce Organic Food For Your Family</h1>
+                </div>
+                <p class="mb-5 text-muted">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et tempor sit.
+                    Clita erat ipsum et
+                    lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore
+                    erat amet magna</p>
+                <div class="row gx-4 mt-4">
+                    <div class="col-sm-6">
+                        <i class="fa fa-seedling display-1 text-secondary abouticon"></i>
+                        <h4>100% Organic</h4>
+                        <p class="text-muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor
+                            magna dolor vero</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-award display-1 text-secondary abouticon"></i>
+                        <h4>Award Winning</h4>
+                        <p class="text-muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor
+                            magna dolor vero</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-clr-ex py-4">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center">
+                    <div class="ratingicon rounded-circle d-flex me-4 align-items-center justify-content-center">
+                        <i class="bi bi-star-fill fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-white text-center">Our Experience</h6>
+                        <h2 class="display-5 text-white">12345</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center ">
+                    <div class="ratingicon rounded-circle d-flex me-4 align-items-center justify-content-center">
+                        <i class="bi bi-people-fill fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-white text-center">Farm Specialist</h6>
+                        <h2 class="display-5 text-white">12345</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center">
+                    <div class="ratingicon rounded-circle d-flex me-4 align-items-center justify-content-center">
+                        <i class="bi bi-check fs-1 text-white"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-white text-center">Complete Project</h6>
+                        <h2 class="display-5 text-white">12345</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center">
+                    <div class="ratingicon rounded-circle d-flex me-4 align-items-center justify-content-center">
+                        <i class="bi bi-cup-hot-fill fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6 class="text-white text-center">Happy Clients</h6>
+                        <h2 class="display-5 text-white">12345</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- service container -->
+    <div class="container-fluid py-5 servicecon">
+        <div class="container-fluid px-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="text-start servicetext ">
+                        <h6>SERVICES</h6>
+                        <h2 class="display-5 pb-3">Organic Farm Services</h2>
+                        <p class="text-muted pb-3">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum et
+                            tempor
+                            sit. Clita erat ipsum et lorem et sit sed stet labore</p>
+                        <a href="#" class="btn px-md-5 py-md-3 servicebtn">Contact Us</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="text-center servicecard p-5">
+                        <i class="fa fa-carrot display-1 text-primary mb-3 serviceicon"></i>
+                        <h4>Fresh Vegetables</h4>
+                        <p class="muted mb-0">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor
+                            magna
+                            dolor
+                            vero</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="text-center servicecard p-5">
+                        <i class="fa fa-apple-alt display-1 text-primary mb-3 serviceicon"></i>
+                        <h4>Fresh Fruits</h4>
+                        <p class="muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna
+                            dolor
+                            vero</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="text-center servicecard p-5">
+                        <i class="fa fa-dog display-1 text-primary mb-3 serviceicon"></i>
+                        <h4>Healty Cattle</h4>
+                        <p class="muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna
+                            dolor
+                            vero</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="text-center servicecard p-5">
+                        <i class="fa fa-tractor display-1 text-primary mb-3 serviceicon"></i>
+                        <h4>Modern Truck</h4>
+                        <p class="muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna
+                            dolor
+                            vero</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="text-center servicecard p-5">
+                        <i class="fa fa-seedling display-1 text-primary mb-3 serviceicon"></i>
+                        <h4>Farming Plans</h4>
+                        <p class="muted">Labore justo vero ipsum sit clita erat lorem magna clita nonumy dolor magna
+                            dolor
+                            vero</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5 pb-lg-0 my-5 feature">
+        <div class="container py-5 pb-lg-0 ">
+            <div class="text-center">
+                <h6 class="featureh6">FEATURES</h6>
+                <h1 class="display-5 text-white">Why Choose Us!!!</h1>
+            </div>
+            <div class="row ">
+                <div class="col-lg-3 d-flex justify-content-center  pe-2">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column gap-2">
+                            <div class="featureicon rounded-pill d-flex justify-content-center align-items-center">
+                                <i class="fa fa-seedling fs-4 text-white"></i>
+                            </div>
+
+                            <h4 class="text-white">100% Organic</h4>
+                            <p class="text-white">Labore justo vero ipsum sit clita erat lorem magna clita</p>
+                        </div>
+                        <div class="col-12 d-flex flex-column gap-2">
+                            <div class="featureicon rounded-pill d-flex justify-content-center align-items-center">
+                                <i class="fa fa-award fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white">100% Organic</h4>
+                            <p class="text-white">Labore justo vero ipsum sit clita erat lorem magna clita</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-3 pb-0 ">
+                    <div class="bg-white p-5 pb-lg-0 text-center">
+                        <p class="text-muted">At et justo elitr amet sea at. Magna et sit vero at ipsum sit et dolores
+                            rebum. Magna sea eos
+                            sit
+                            dolor, ipsum amet no tempor ipsum eirmod lorem eirmod diam tempor dolor eos diam et et diam
+                            dolor ea. Clita est rebum amet dolore sit. Dolor stet dolor duo clita, vero dolor ipsum amet
+                            dolore magna lorem erat stet sed vero dolor</p>
+                        <img src="./img/feature.png" class="img-fluid " alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center p-4 pe-2">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column gap-2">
+                            <div class="featureicon rounded-pill d-flex justify-content-center align-items-center">
+                                <i class="fa fa-tractor fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white">Modern Farming</h4>
+                            <p class="text-white">Labore justo vero ipsum sit clita erat lorem magna clita</p>
+                        </div>
+                        <div class="col-12 d-flex flex-column gap-2">
+                            <div class="featureicon rounded-pill d-flex justify-content-center align-items-center">
+                                <i class="fa fa-phone-alt fs-4 text-white"></i>
+                            </div>
+                            <h4 class="text-white">24/7 Support</h4>
+                            <p class="text-white">Labore justo vero ipsum sit clita erat lorem magna clita</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container d-flex flex-column align-items-center pt-5 position-relative">
+            <div class="product text-center x">
+                <h6>PRODUCTS</h6>
+                <h1 class="display-5">Our Fresh & Organic Products</h1>
+            </div>
+
+            <div class="cardback">
+                <div class="container d-flex justify-content-between cardbackbg">
+                    <img src="./img/product-1.png" alt="">
+                    <img src="./img/product-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="cards position-absolute d-flex gap-5">
+                <div class="cardbox p-3 bg-white">
+                    <div
+                        class="box-item d-flex flex-column justify-content-center align-items-center position-relative">
+                        <img src="./img/product-1.png" class="img-fluid" alt="">
+                        <h6>Organic Vegetables</h6>
+                        <h5 class="rate">$19</h5>
+
+                        <div class="btn-action d-flex justify-content-center">
+                            <a href="#" class="btn py-2 px-3 iconbg1">
+                                <i class="bi bi-cart text-white "></i>
+                            </a>
+                            <a href="#" class="btn py-2 px-3 iconbg2">
+                                <i class="bi bi-eye text-white "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbox p-3 bg-white d-none d-md-block ">
+                    <div
+                        class="box-item d-flex flex-column justify-content-center align-items-center position-relative">
+                        <img src="./img/product-2.png" class="img-fluid" alt="">
+                        <h6>Organic Vegetables</h6>
+                        <h5 class="rate">$19</h5>
+
+                        <div class="btn-action d-flex justify-content-center">
+                            <a href="#" class="btn py-2 px-3 iconbg1">
+                                <i class="bi bi-cart text-white "></i>
+                            </a>
+                            <a href="#" class="btn py-2 px-3 iconbg2">
+                                <i class="bi bi-eye text-white "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbox p-3 bg-white d-none d-lg-block">
+                    <div
+                        class="box-item d-flex flex-column justify-content-center align-items-center position-relative">
+                        <img src="./img/product-1.png" class="img-fluid" alt="">
+                        <h6>Organic Vegetables</h6>
+                        <h5 class="rate">$19</h5>
+
+                        <div class="btn-action d-flex justify-content-center">
+                            <a href="#" class="btn py-2 px-3 iconbg1">
+                                <i class="bi bi-cart text-white "></i>
+                            </a>
+                            <a href="#" class="btn py-2 px-3 iconbg2">
+                                <i class="bi bi-eye text-white "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardbox p-3 bg-white d-none d-xl-block">
+                    <div
+                        class="box-item d-flex flex-column justify-content-center align-items-center position-relative">
+                        <img src="./img/product-2.png" class="img-fluid" alt="">
+                        <h6>Organic Vegetables</h6>
+                        <h5 class="rate">$19</h5>
+                        <div class="btn-action d-flex justify-content-center">
+                            <a href="#" class="btn py-2 px-3 iconbg1">
+                                <i class="bi bi-cart text-white "></i>
+                            </a>
+                            <a href="#" class="btn py-2 px-3 iconbg2">
+                                <i class="bi bi-eye text-white "></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid client py-5 my-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 p-4 client-box">
+                    <div class="text-center client-icon mx-auto">
+                        <img src="./img/testimonial-2.jpg" class=" img-fluid mx-auto p-2 border-5 rounded-circle mb-4"
+                            alt="">
+                    </div>
+
+                    <p class="fs-5 text-white text-center p-3">Dolores sed duo clita justo dolor et stet lorem kasd
+                        dolore lorem ipsum. At lorem
+                        lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
+                    <hr class="mx-auto w-25 text-white">
+
+                    <h4 class="text-white mb-0 text-center">Client Name</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid pb-5">
+        <div class="container">
+            <div class="text-center mx-auto" style="max-width: 500px;">
+                <h6 class="teamh6">THE TEAM</h6>
+                <h1 class="display-5">We Are Professional Organic Farmers</h1>
+            </div>
+
+            <div class="row g-0">
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="row g-0">
+                        <div class="col-10 position-relative">
+                            <img src="./img/team-1.jpg" class="img-fluid" alt="">
+                            <div class="farmername py-3 px-4 w-100">
+                                <h4 class="text-white">Farmer Name</h4>
+                                <span class="text-white">Designation</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div
+                                class="d-flex flex-column align-items-center justify-content-between py-5 m-0 farmericons">
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-twitter farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-facebook-f farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-linkedin farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-instagram farmericon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="row g-0">
+                        <div class="col-10 position-relative">
+                            <img src="./img/team-2.jpg" class="img-fluid" alt="">
+                            <div class="farmername py-3 px-4 w-100">
+                                <h4 class="text-white">Farmer Name</h4>
+                                <span class="text-white">Designation</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div
+                                class="d-flex flex-column align-items-center justify-content-between py-5 m-0 farmericons">
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-twitter farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-facebook-f farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-linkedin farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-instagram farmericon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="row g-0">
+                        <div class="col-10 position-relative">
+                            <img src="./img/team-3.jpg" class="img-fluid" alt="">
+                            <div class="farmername py-3 px-4 w-100">
+                                <h4 class="text-white">Farmer Name</h4>
+                                <span class="text-white">Designation</span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div
+                                class="d-flex flex-column align-items-center justify-content-between py-5 m-0 farmericons">
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-twitter farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-facebook-f farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-linkedin farmericon"></i>
+                                </a>
+                                <a href="" class="btn btn-square rounded-circle bg-white">
+                                    <i class="fab fa-instagram farmericon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <div class="text-center mx-auto" style="max-width: 500px;">
+                <h6 class="blogh6">OUR BLOG</h6>
+                <h1 class="display-5">Latest Articles From Our Blog Post</h1>
+            </div>
+
+            <div class="row pt-5 px-lg-5">
+                <div class="col-lg-4 p-3">
+                    <div class="blogitem position-relative overflow-hidden">
+                        <img src="./img/blog-1.jpg" class="img-fluid" alt="">
+                        <a href="" class="blogover">
+                            <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
+                            <span class="text-white ">Jan 01, 2050</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 p-3">
+                    <div class="blogitem position-relative overflow-hidden">
+                        <img src="./img/blog-2.jpg" class="img-fluid" alt="">
+                        <a href="" class="blogover">
+                            <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
+                            <span class="text-white ">Jan 01, 2050</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 p-3">
+                    <div class="blogitem position-relative overflow-hidden">
+                        <img src="./img/blog-3.jpg" class="img-fluid" alt="">
+                        <a href="" class="blogover">
+                            <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
+                            <span class="text-white ">Jan 01, 2050</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid bg-footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-8 p-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="text-start p-2">
+                                <h4 class="text-white pb-2">Get In Touch</h4>
+                                <div class="d-flex mb-2">
+                                    <i class="bi bi-geo-alt text-white me-2"></i>
+                                    <p class="text-white mb-0">123 Street, New York, USA</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i class="bi bi-envelope-open text-white me-2"></i>
+                                    <p class="text-white mb-0">info@examle.com</p>
+                                </div>
+                                <div class="d-flex mb-2">
+                                    <i class="bi bi-telephone text-white me-2"></i>
+                                    <p class="text-white mb-0">+012 345 67890</p>
+                                </div>
+
+                                <div class="d-flex mt-4">
+                                    <a href="" class="btn btn-footer-logo btn-square rounded-circle me-2">
+                                        <i class="fab fa-twitter footericon"></i>
+                                    </a>
+                                    <a href="" class="btn btn-footer-logo btn-square rounded-circle me-2">
+                                        <i class="fab fa-facebook-f footericon"></i>
+                                    </a>
+                                    <a href="" class="btn btn-footer-logo btn-square rounded-circle me-2">
+                                        <i class="fab fa-linkedin-in footericon"> </i>
+                                    </a>
+                                    <a href="" class="btn btn-footer-logo btn-square rounded-circle me-2">
+                                        <i class="fab fa-instagram footericon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-start p-2">
+                                <h4 class="text-white pb-2 ">Quick Links</h4>
+                                <div class="d-flex flex-column pt-2 gap-1">
+
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Home</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        About Us</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Our Services</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Meet The Team</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Latest Blog</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-start p-2">
+                                <h4 class="text-white pb-2 ">Popular Links</h4>
+                                <div class="d-flex flex-column pt-2 gap-1">
+
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Home</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        About Us</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Our Services</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Meet The Team</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Latest Blog</a>
+                                    <a href="" class="text-decoration-none text-white">
+                                        <i class="bi bi-arrow-right text-white me-2"></i>
+                                        Contact Us</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 news px-4">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 newsletter p-5">
+                        <h4 class="text-white">Newsletter</h4>
+                        <h6 class="text-white">Subscribe Our Newsletter</h4>
+                            <p class="text-white text-center">Amet justo diam dolor rebum lorem sit stet sea justo kasd
+                            </p>
+                            <div class="input-group">
+                                <input type="email" name="" class="form-control border-white p-3"
+                                    placeholder="Your Email" id="">
+                                <button class="btn">Sign Up</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyrightfooter">
+        <div class="text-center p-4 ">
+            <a href="" class="copyright">© Your Site Name.</a>
+            <span class="text-white">All Rights Reserved. Designed by </span>
+            <a href="" class="copyright">HTML Codex</a>
+        </div>
+    </div>
+
+    <a href="" class="btn py-3 fs-4 back-to-top">
+        <i class="bi bi-arrow-up top-icon"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
